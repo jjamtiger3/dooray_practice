@@ -1,5 +1,7 @@
 <template>
     <div class="container">
+        <!--
+            상태에 따라 리스트를 다르게 가져와야 할것 같음
         <button class="new-work">
             <i class="fa fa-plus"></i>
             새업무
@@ -25,6 +27,7 @@
             <li>보낸 업무</li>
             <li>임시 보관함</li>
         </ul>
+        -->
     </div>
 </template>
 <style scoped>
