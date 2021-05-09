@@ -1,6 +1,7 @@
 <template>
   <div>
     <global-navbar></global-navbar>
+    <left-menu></left-menu>
   </div>
 </template>
 

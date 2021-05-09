@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-right: 1px solid #333333;
+}
+.container .new-work {
+    padding: 10px 0 10px 20px;
+    background-color: #dbeefd;
+    border: 1px solid #d6deec;
+    color: #2c3348;
+    text-align: left;
+}
+.container ul {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dbeefd;
+}
+.container ul li {
+    padding-left: 20px;
+    line-height: 26px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.container ul li i.fa.fa-star {
+    color: yellow;
+}
+.container ul li i.fa.fa-comment-o {
+    transform: scaleX(-1);
+}
