@@ -10,6 +10,5 @@
     </div>
 </template>
 <style scoped>
-    @import url('../node_modules/font-awesome/css/font-awesome.min.css');
-    @import url('../assets/css/global-navbar/global-navbar.css');
+    @import url('../assets/css/global-navbar.css');
 </style>
