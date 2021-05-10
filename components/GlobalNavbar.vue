@@ -14,12 +14,12 @@ import { mapMutations, mapGetters } from 'vuex'
 export default {
     computed: {
         ...mapGetters({
-            currentUrl: 'menu/currentUrl'
+            currentUrl: 'globalmenu/currentUrl'
         })
     },
     methods: {
         ...mapMutations({
-            changeUrlState: 'menu/changeUrlState'
+            changeUrlState: 'globalmenu/changeUrlState'
         })
     }
 }

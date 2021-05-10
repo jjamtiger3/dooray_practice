@@ -9,6 +9,13 @@
   import Vue from 'vue'
   export default Vue.extend({})
 </script>
+<script>
+export default {
+  created() {
+    this.$router.push('/project')
+  }
+}
+</script>
 <style>
   @import url('../node_modules/font-awesome/css/font-awesome.min.css');
 </style>

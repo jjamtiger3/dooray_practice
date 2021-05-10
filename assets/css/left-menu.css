@@ -22,9 +22,50 @@
     font-size: 12px;
     cursor: pointer;
 }
+.container ul li i {
+    margin-right: 5px;
+}
 .container ul li i.fa.fa-star {
     color: yellow;
 }
 .container ul li i.fa.fa-comment-o {
     transform: scaleX(-1);
+}
+
+.container .new-mail {
+    padding: 10px 0 10px 20px;
+    background-color: #d6faf1;
+    border: 1px solid #d5eae5;
+    color: #214340;
+    text-align: left;
+}
+
+.container .new-calendar {
+    padding: 10px 0 10px 20px;
+    background-color: #ffe6e4;
+    border: 1px solid #e9d8d7;
+    color: #5f3030;
+    text-align: left;
+}
+
+.container .new-file {
+    padding: 10px 0 10px 20px;
+    background-color: #f1e2ff;
+    border: 1px solid #e0d7e8;
+    color: #40304e;
+    text-align: left;
+}
+.container .new-wiki {
+    padding: 10px 0 10px 20px;
+    background-color: #ffede0;
+    border: 1px solid #e6dbd2;
+    color: #3c3129;
+    text-align: left;
+}
+.container .new-address {
+    padding: 10px 0 10px 20px;
+    background-color: #ffe0ef;
+    border: 1px solid #e8d6e3;
+    color: #613045;
+    text-align: left;
 }
