@@ -11,6 +11,12 @@
                 {{menu.text}}
             </li>
         </ul>
+        <ul>
+            <li v-for="(menu, index) in this.menuData.generalArea" :key="index">
+                <i class="fa" :class="menu.class"></i>
+                {{menu.text}}
+            </li>
+        </ul>
     </div>
 </template>
 <script>
